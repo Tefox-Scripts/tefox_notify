@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+    <div id="stack"></div>
+
+    <div id="drag" class="hidden">Drag to position, release to save</div>
+
+    <div id="settings" class="hidden">
+        <div class="panel">
+            <header>
+                <h1>Notification Settings</h1>
+                <button class="icon-btn" data-action="close">&times;</button>
+            </header>
+
+            <section>
+                <h2>Position</h2>
+                <div class="grid" id="positions"></div>
+                <button class="btn wide" id="customBtn" data-action="custom">Custom Position</button>
+            </section>
+
+            <section>
+                <h2>Appearance</h2>
+                <div class="row">
+                    <label>Theme</label>
+                    <div class="seg" id="theme">
+                        <button data-v="dark">Dark</button>
+                        <button data-v="light">Light</button>
+                        <button data-v="auto">Day / Night</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <label>Accent</label>
+                    <div class="inline"><div class="swatches" id="swatches"></div><input type="color" id="accent"></div>
+                </div>
+                <div class="row">
+                    <label>Use accent for all types</label>
+                    <label class="toggle"><input type="checkbox" id="unified"><span></span></label>
+                </div>
+                <div class="row"><label>Size</label><input type="range" id="scale" min="0.8" max="1.3" step="0.05"></div>
+                <div class="row"><label>Opacity</label><input type="range" id="opacity" min="0.6" max="1" step="0.01"></div>
+                <div class="row">
+                    <label>Animation</label>
+                    <div class="seg" id="animation">
+                        <button data-v="slide">Slide</button>
+                        <button data-v="fade">Fade</button>
+                        <button data-v="scale">Scale</button>
+                        <button data-v="none">None</button>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Sound</h2>
+                <div class="row">
+                    <label>Mute all</label>
+                    <label class="toggle"><input type="checkbox" id="muted"><span></span></label>
+                </div>
+                <div class="row"><label>Volume</label><input type="range" id="volume" min="0" max="1" step="0.05"></div>
+                <div id="typeSounds"></div>
+            </section>
+
+            <footer>
+                <button class="btn" data-action="reset">Reset</button>
+                <button class="btn" data-action="preview">Preview</button>
+                <button class="btn primary" data-action="save">Save</button>
+            </footer>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
