@@ -1,5 +1,17 @@
 # TEFOX Notify
 
+<p align="center">
+  <img src="images/notify-1.png" alt="TEFOX Notify preview">
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/eWJdBgwD86"><img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://github.com/Tefox-Scripts/tefox_notify/releases/latest"><img src="https://img.shields.io/badge/Download-Latest%20Release-22c55e?style=for-the-badge&logo=github&logoColor=white" alt="Download"></a>
+  <a href="https://tefox-scripts.com/scripts/16"><img src="https://img.shields.io/badge/Website-TEFOX%20Scripts-7c5cff?style=for-the-badge" alt="Website"></a>
+</p>
+
+> 💬 **Support, updates and more free scripts are on our [Discord](https://discord.gg/eWJdBgwD86).**
+
 A modern, fully customizable notification system for FiveM.
 Works with **QBCore**, **ESX**, **Qbox** and **ox_lib** out of the box, and replaces your server's existing notifications without touching your other scripts.
 
@@ -24,6 +36,17 @@ Works with **QBCore**, **ESX**, **Qbox** and **ox_lib** out of the box, and repl
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="images/notify-2.png" width="49%">
+  <img src="images/notify-3.png" width="49%">
+  <img src="images/notify-4.png" width="49%">
+  <img src="images/notify-5.png" width="49%">
+</p>
+
+---
+
 ## Requirements
 
 | Resource | Required |
@@ -37,7 +60,7 @@ Works with **QBCore**, **ESX**, **Qbox** and **ox_lib** out of the box, and repl
 
 ### 1. Add the resource
 
-Place the `tefox_notify` folder inside your `resources` folder.
+Download **`tefox_notify.zip`** from the [latest release](https://github.com/Tefox-Scripts/tefox_notify/releases/latest) (not "Source code"), extract it and place the `tefox_notify` folder inside your `resources` folder.
 
 > **Important:** The folder name must stay exactly `tefox_notify`, otherwise exports and framework hooks will not work.
 
@@ -397,7 +420,14 @@ add_ace group.admin command.announce allow
 
 ## Support
 
-Store: https://tefox-scripts.com/
-Discord: https://discord.gg/eWJdBgwD86
+Need help or found a bug? Join our [Discord](https://discord.gg/eWJdBgwD86). It's the fastest way to reach us, and where all updates and new free scripts are announced first.
+
+🛒 More scripts: [tefox-scripts.com](https://tefox-scripts.com)
+
+---
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
 © TEFOX Scripts
